@@ -36,7 +36,17 @@ Efficient rendering techniques for interactive visualizations
 
 Testing: Validation against historical extreme weather records.
 
+# Files
 
+**Data_Wrangling.py:**
+Automates downloading of climate data from NOAA's nClimGrid repository.
+Iterates over years, months, and variables (precipitation, Tmin, Tmax, Tavg).
+Saves data locally in a structured format, organized by year and variable.
+
+**Data_Formatting.py:**
+Processes and combines daily climate data from multiple CSV files.
+Creates unified Date column and splits state/county information.
+Filters data for Virginia and outputs a combined CSV for further analysis.
 
 
 # Team Members
