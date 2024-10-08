@@ -38,15 +38,15 @@ Testing: Validation against historical extreme weather records.
 
 # Files
 
-**Data_Wrangling.py:**
-Automates downloading of climate data from NOAA's nClimGrid repository.
-Iterates over years, months, and variables (precipitation, Tmin, Tmax, Tavg).
-Saves data locally in a structured format, organized by year and variable.
+**Data_Wrangling.py:**<br>
+Automates downloading of climate data from NOAA's nClimGrid repository.<br>
+Iterates over years, months, and variables (precipitation, Tmin, Tmax, Tavg).<br>
+Saves data locally in a structured format, organized by year and variable.<br>
 
-**Data_Formatting.py:**
-Processes and combines daily climate data from multiple CSV files.
-Creates unified Date column and splits state/county information.
-Filters data for Virginia and outputs a combined CSV for further analysis.
+**Data_Formatting.py:**<br>
+Processes and combines daily climate data from multiple CSV files.<br>
+Creates unified Date column and splits state/county information.<br>
+Filters data for Virginia and outputs a combined CSV for further analysis.<br>
 
 
 # Team Members
