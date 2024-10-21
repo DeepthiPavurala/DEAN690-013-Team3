@@ -48,6 +48,11 @@ Processes and combines daily climate data from multiple CSV files.<br>
 Creates unified Date column and splits state/county information.<br>
 Filters data for Virginia and outputs a combined CSV for further analysis.<br>
 
+# Data Flow
+
+<img width="1306" alt="Architecture" src="https://github.com/user-attachments/assets/a1f6fb34-304b-4a94-839c-a919ee89dc52">
+
+
 
 # Team Members
 Deepthi Pavurala, Ashritha Gugire, Bhargava Devarakonda, Rishi Reddy Ragi, Adithya Karkata
