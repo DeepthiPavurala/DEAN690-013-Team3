@@ -42,11 +42,11 @@ This solution equips municipal planners with the tools needed to effectively ass
 # Architecture
 ![Architecture (2)](https://github.com/user-attachments/assets/c8c4d77b-1a07-4d88-aa16-b5e489a67c32)  
 
-• Data extraction from NCEI source 
-• Storage and management in local drive 
-• Processing and preparation on PC 
-• Dashboard creation in Tableau 
-• End user access and interaction
+• Data extraction from NCEI source    
+• Storage and management in local drive   
+• Processing and preparation on PC    
+• Dashboard creation in Tableau     
+• End user access and interaction    
 
 **Potential Analytic/Algorithm Name: Historical Climate Trend Analysis**
 
