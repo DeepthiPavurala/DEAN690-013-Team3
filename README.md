@@ -101,7 +101,7 @@ Filters data for Virginia and outputs a combined CSV for further analysis.<br>
   
 
 # Tableau Dashboard
-[Virginia Climate Indicators]([https://public.tableau.com/views/VirginiaClimateIndicators/VirginiaClimateIndicators_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/VirginiaClimateIndicators-2/VirginiaClimateIndicators?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link))
+[Virginia Climate Indicators]([https://public.tableau.com/views/VirginiaClimateIndicators-2/VirginiaClimateIndicators?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link])
 
 **A snapshot of our Fairfax County**: 
 ![image](https://github.com/user-attachments/assets/65ee17ba-422f-4fc1-862e-7fd8ff118840)
