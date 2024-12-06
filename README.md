@@ -101,7 +101,7 @@ Filters data for Virginia and outputs a combined CSV for further analysis.<br>
   
 
 # Tableau Dashboard
-[Virginia Climate Indicators](https://public.tableau.com/views/VirginiaClimateIndicators/VirginiaClimateIndicators_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Virginia Climate Indicators]([https://public.tableau.com/views/VirginiaClimateIndicators/VirginiaClimateIndicators_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/VirginiaClimateIndicators-2/VirginiaClimateIndicators?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link))
 
 **A snapshot of our Fairfax County**: 
 ![image](https://github.com/user-attachments/assets/65ee17ba-422f-4fc1-862e-7fd8ff118840)
@@ -111,7 +111,7 @@ Filters data for Virginia and outputs a combined CSV for further analysis.<br>
 
 This highlights significant statewide warming, with average monthly temperatures increasing by 2.53°F. Minimum temperatures have risen faster at 3.29°F compared to maximum temperatures at 2.36°F, reflecting a narrowing temperature range. The frequency of extreme heat days, defined as days exceeding 90°F, has steadily increased, primarily in southern and central Virginia, with these patterns now spreading northward. Seasonal analyses reveal significant warming during summer and winter months, potentially impacting ecosystems, agriculture, energy consumption, and public health.  
 
-Precipitation trends indicate a statewide increase of 7.65 inches; however, regional variability paints a more complex picture. Twelve counties, including Fairfax, Prince William, Manassas, and Manassas Park, face declining rainfall, raising concerns about drought and water scarcity. Meanwhile, other areas report intensified rainfall events, increasing flood risks and complicating stormwater management efforts. These trends underscore the growing urgency of addressing climate challenges, from heat-related health risks to managing water resources effectively. The data emphasizes the need for tailored adaptation and mitigation strategies to build climate resilience across Virginia’s diverse regions.
+Precipitation trends indicate a statewide increase of 7.65 inches; however, regional variability paints a more complex picture. Twelve counties, including Fairfax, Prince William, Manassas, and Manassas Park, face declining precipitation, raising concerns about drought and water scarcity. Meanwhile, other areas report intensified precipitation events, increasing flood risks and complicating stormwater management efforts. These trends underscore the growing urgency of addressing climate challenges, from heat-related health risks to managing water resources effectively. The data emphasizes the need for tailored adaptation and mitigation strategies to build climate resilience across Virginia’s diverse regions.
 
 To conclude, by combining robust statistical analysis with interactive visualizations, the dashboard empowers policymakers and planners with actionable insights to address Virginia's evolving climate challenges effectively.
 
