@@ -12,7 +12,7 @@ Future updates may incorporate predictive models, findings about vector borne di
 Problem Context:
 **Domain of problem:** Environmental Science, Public Health, Urban Planning
 
-**Importance of problem:**
+**IMPORTANCE OF THE PROBLEM:**
 - Poor access to climate data hinders municipal planning, risking public health and environmental resilience.
 - Ineffective use of climate data can lead to increased vulnerability to climate events
 - Potential negative impacts on public health, and economic losses due to inadequate preparation and response strategies
@@ -25,7 +25,7 @@ Problem Statement:
 ![image](https://github.com/user-attachments/assets/7e1fb013-7c5e-422d-a2be-4441b26cca27)  
 
   
-**Solution Proposed:**
+**SOLUTION PROPOSED:**
 Our team proposed a strategic approach to ensure the successful development of the Virginia Climate Data Dashboard:  
 
 1. **Building a Strong Foundation with Climate Data:**  
@@ -42,6 +42,11 @@ This solution equips municipal planners with the tools needed to effectively ass
 # Architecture
 ![Architecture (2)](https://github.com/user-attachments/assets/c8c4d77b-1a07-4d88-aa16-b5e489a67c32)  
 
+• Data extraction from NCEI source 
+• Storage and management in local drive 
+• Processing and preparation on PC 
+• Dashboard creation in Tableau 
+• End user access and interaction
 
 **Potential Analytic/Algorithm Name: Historical Climate Trend Analysis**
 
@@ -59,7 +64,7 @@ Efficient rendering techniques for interactive visualizations
 
 Testing: Validation against historical extreme weather records.
 
-# Files
+# Files 
 
 **Data_Wrangling.py:**<br>
 Automates downloading of climate data from NOAA's nClimGrid repository.<br>
@@ -74,10 +79,41 @@ Filters data for Virginia and outputs a combined CSV for further analysis.<br>
 # Data Readiness Steps for Dashboard
 ![Data Analysis](https://github.com/user-attachments/assets/7463ca17-ea87-4951-b307-e33de6db079c)
 
+## Workflow Summary for the Virginia Climate Data Dashboard  
 
+1. **Data Collection and Extraction:**  
+   - Climate data for Virginia counties was systematically collected from NOAA's NCEI, focusing on minimum, maximum, and average temperatures, along with precipitation data.  
+
+2. **Data Cleaning and Preprocessing:**  
+   - Missing values were removed, formatting issues were resolved, date formats were standardized, and unit conversions were completed to ensure consistency and usability.  
+
+3. **Data Integration and Aggregation:**  
+   - Temperature and precipitation datasets were merged, county-level data was combined into unified time series, and temporal and spatial alignment was achieved for comprehensive analysis.  
+
+4. **Statistical Analysis:**  
+   - Key analyses included calculating historical averages, assessing variability, identifying trends, validating significance using p-values, detecting extreme events, and analyzing seasonal patterns.  
+
+5. **Visualization Development:**  
+   - A range of visualizations was created, including time series plots, spatial heatmaps, county-level comparisons, seasonal patterns, and interactive charts for user exploration.  
+
+6. **Final Dataset Preparation:**  
+   - The workflow resulted in a clean, validated dataset optimized for Tableau dashboard implementation, designed for easy updates, and tailored to meet the needs of municipal planners for effective decision-making.
+  
 
 # Tableau Dashboard
 [Virginia Climate Indicators](https://public.tableau.com/views/VirginiaClimateIndicators/VirginiaClimateIndicators_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+**A snapshot of our Fairfax County**: 
+![image](https://github.com/user-attachments/assets/65ee17ba-422f-4fc1-862e-7fd8ff118840)
+
+
+### Key findings 
+
+This highlights significant statewide warming, with average monthly temperatures increasing by 2.53°F. Minimum temperatures have risen faster at 3.29°F compared to maximum temperatures at 2.36°F, reflecting a narrowing temperature range. The frequency of extreme heat days, defined as days exceeding 90°F, has steadily increased, primarily in southern and central Virginia, with these patterns now spreading northward. Seasonal analyses reveal significant warming during summer and winter months, potentially impacting ecosystems, agriculture, energy consumption, and public health.  
+
+Precipitation trends indicate a statewide increase of 7.65 inches; however, regional variability paints a more complex picture. Twelve counties, including Fairfax, Prince William, Manassas, and Manassas Park, face declining rainfall, raising concerns about drought and water scarcity. Meanwhile, other areas report intensified rainfall events, increasing flood risks and complicating stormwater management efforts. These trends underscore the growing urgency of addressing climate challenges, from heat-related health risks to managing water resources effectively. The data emphasizes the need for tailored adaptation and mitigation strategies to build climate resilience across Virginia’s diverse regions.
+
+To conclude, by combining robust statistical analysis with interactive visualizations, the dashboard empowers policymakers and planners with actionable insights to address Virginia's evolving climate challenges effectively.
 
 # Team Members
 Deepthi Pavurala, Ashritha Gugire, Bhargava Devarakonda, Rishi Reddy Ragi, Adithya Karkata
