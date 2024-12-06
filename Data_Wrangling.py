@@ -1,5 +1,6 @@
 import os
 import requests
+from datetime import datetime
 
 # Base URL for downloading the files
 base_url = "https://www.ncei.noaa.gov/pub/data/daily-grids/v1-0-0/averages"
@@ -7,15 +8,22 @@ base_url = "https://www.ncei.noaa.gov/pub/data/daily-grids/v1-0-0/averages"
 # Variables for which we want to download data
 variables = ["prcp", "tmin", "tmax", "tavg"]
 
+# Get the current date
+current_date = datetime.now()
+
+# Extract the current year and month
+end_year = current_date.year
+current_month = current_date.month
+
 start_year = 1990
-end_year = 2024
+
 
 # Base folder to store downloaded files
 output_base_dir = "/Users/deepthipavurala/Documents/4th_Sem/Dataset/nClimGrid"
 
 # Loop through each year
 for year in range(start_year, end_year + 1):
-    months = range(1, 10) if year == 2024 else range(1, 13)
+    months = range(1, current_month+1) if year == end_year else range(1, 13)
 
     for var in variables:
         year_var_dir = os.path.join(output_base_dir, str(year), var)
