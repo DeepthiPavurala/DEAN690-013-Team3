@@ -103,8 +103,9 @@ Filters data for Virginia and outputs a combined CSV for further analysis.<br>
 # Tableau Dashboard
 [Virginia Climate Indicators](https://public.tableau.com/views/VirginiaClimateIndicators-2/VirginiaClimateIndicators?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
-**A snapshot of our Fairfax County**: 
-![image](https://github.com/user-attachments/assets/65ee17ba-422f-4fc1-862e-7fd8ff118840)
+**A snapshot of Whole State**: 
+
+![Whole State](https://github.com/user-attachments/assets/b448b42f-8984-4b9d-8a02-305b994260c8)
 
 
 ### Key findings 
@@ -116,4 +117,4 @@ Precipitation trends indicate a statewide increase of 7.65 inches; however, regi
 To conclude, by combining robust statistical analysis with interactive visualizations, the dashboard empowers policymakers and planners with actionable insights to address Virginia's evolving climate challenges effectively.
 
 # Team Members
-Deepthi Pavurala, Ashritha Gugire, Bhargava Devarakonda, Rishi Reddy Ragi, Adithya Karkata
+Deepthi Pavurala, Ashritha Gugire, Bhargava Devarakonda, Rishik Reddy Ragi, Adithya Karkata
