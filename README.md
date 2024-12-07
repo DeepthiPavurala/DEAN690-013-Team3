@@ -22,7 +22,8 @@ Problem Statement:
 - The data is often scattered across various sources, lacks county-specific detail, and is presented in complex formats. 
 - This hinders planners' ability to make well-informed decisions, potentially compromising climate adaptation efforts, public health initiatives, and economic resilience in the face of changing environmental conditions
 
-![image](https://github.com/user-attachments/assets/7e1fb013-7c5e-422d-a2be-4441b26cca27)  
+![image](https://github.com/user-attachments/assets/6c8c6937-3019-4d0b-bc94-a8ebdddf7068)
+
 
   
 **SOLUTION PROPOSED:**
