@@ -80,6 +80,8 @@ Filters data for Virginia and outputs a combined CSV for further analysis.<br>
 # Data Readiness Steps for Dashboard
 ![Data Analysis](https://github.com/user-attachments/assets/7463ca17-ea87-4951-b307-e33de6db079c)
 
+The finalized dataset used for building the Tableau dashboard is too large to store directly in the repository. The dataset is available for download from [this S3 URL](https://gmu-cec-sagemaker-daen690-dw.s3.us-east-1.amazonaws.com/combined_va_data.csv)
+
 ## Workflow Summary for the Virginia Climate Data Dashboard  
 
 1. **Data Collection and Extraction:**  
